@@ -1,9 +1,3 @@
-#!/usr/bin/env python
-# coding: utf-8
-
-# In[ ]:
-
-
 pip install Flask plotly
 from flask import Flask, render_template
 import plotly.graph_objs as go
@@ -40,10 +34,3 @@ def index():
 
 if __name__ == '__main__':
     app.run(debug=True, use_reloader=False)
-
-
-# In[ ]:
-
-
-
-
